@@ -11,4 +11,16 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <exec.mainClass>com.mycompany.pruebaunalm.PruebaUnalm</exec.mainClass>
     </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.20.0</version>
+                <configuration>
+                    <!-- optional configuration -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
